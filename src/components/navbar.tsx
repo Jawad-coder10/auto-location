@@ -24,19 +24,19 @@ export default function Navbar() {
                   <User className="w-6 h-6" />
                 </Button>
               </DropdownMenuTrigger>
-              <DropdownMenuContent align="end" className="w-48">
+              <DropdownMenuContent align="end" className="w-48 bg-white text-black ">
                 <DropdownMenuItem>
-                  <a href="/mon-compte" className="w-full">
+                  <a href="/mon-compte" className="w-full hover:text-blue-600">
                     Mon compte
                   </a>
                 </DropdownMenuItem>
                 <DropdownMenuItem>
-                  <a href="/reservation" className="w-full">
+                  <a href="/reservation" className="w-full hover:text-blue-600">
                     Mes réservations
                   </a>
                 </DropdownMenuItem>
-                                <DropdownMenuItem>
-                  <a href="/service" className="w-full">
+                <DropdownMenuItem>
+                  <a href="/service" className="w-full hover:text-blue-600">
                      Nos services
                   </a>
                 </DropdownMenuItem>
